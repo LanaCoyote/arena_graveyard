@@ -1,0 +1,1184 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17959 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 28
+Reduced 9 texdatas to 9 (191 bytes to 191)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+  60 portalclusters
+ 149 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3038
+Average clusters visible: 50
+Building PAS...
+Average clusters audible: 60
+visdatasize:1446  compressed from 960
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+236 faces
+198374 square feet [28565978.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+236 patches before subdivision
+3404 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 136273, max 203
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 41/8192          492/98304    ( 0.5%) 
+brushsides             383/65536        3064/524288   ( 0.6%) 
+planes                 506/65536       10120/1310720  ( 0.8%) 
+vertexes               362/65536        4344/786432   ( 0.6%) 
+nodes                  129/65536        4128/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  236/65536       13216/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              183/65536       10248/3670016  ( 0.3%) 
+leaves                 131/65536        4192/2097152  ( 0.2%) 
+leaffaces              311/65536         622/131072   ( 0.5%) 
+leafbrushes            190/65536         380/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1850/512000       7400/2048000  ( 0.4%) 
+edges                 1104/256000       4416/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           138/65536         276/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       76684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1446/16777216 ( 0.0%) 
+entdata               [variable]         467/393216   ( 0.1%) 
+LDR ambient table      131/65536         524/262144   ( 0.2%) 
+HDR ambient table      131/65536         524/262144   ( 0.2%) 
+LDR leaf ambient        60/65536        1680/1835008  ( 0.1%) 
+HDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       17959/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 608
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17959 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 28
+Reduced 9 texdatas to 9 (191 bytes to 191)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+  60 portalclusters
+ 149 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3038
+Average clusters visible: 50
+Building PAS...
+Average clusters audible: 60
+visdatasize:1446  compressed from 960
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+236 faces
+198374 square feet [28565978.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+236 patches before subdivision
+3404 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 136273, max 203
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0010 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 41/8192          492/98304    ( 0.5%) 
+brushsides             383/65536        3064/524288   ( 0.6%) 
+planes                 506/65536       10120/1310720  ( 0.8%) 
+vertexes               362/65536        4344/786432   ( 0.6%) 
+nodes                  129/65536        4128/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  236/65536       13216/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              183/65536       10248/3670016  ( 0.3%) 
+leaves                 131/65536        4192/2097152  ( 0.2%) 
+leaffaces              311/65536         622/131072   ( 0.5%) 
+leafbrushes            190/65536         380/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1850/512000       7400/2048000  ( 0.4%) 
+edges                 1104/256000       4416/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           138/65536         276/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       76684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1446/16777216 ( 0.0%) 
+entdata               [variable]         467/393216   ( 0.1%) 
+LDR ambient table      131/65536         524/262144   ( 0.2%) 
+HDR ambient table      131/65536         524/262144   ( 0.2%) 
+LDR leaf ambient        60/65536        1680/1835008  ( 0.1%) 
+HDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       17959/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 608
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20583 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 77 texinfos to 71
+Reduced 9 texdatas to 9 (191 bytes to 191)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+  86 portalclusters
+ 216 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 7010
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 86
+visdatasize:2584  compressed from 2752
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+298 faces
+260737 square feet [37546176.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+298 patches before subdivision
+4076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 185030, max 253
+transfer lists:   1.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0010 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 49/8192          588/98304    ( 0.6%) 
+brushsides             430/65536        3440/524288   ( 0.7%) 
+planes                 524/65536       10480/1310720  ( 0.8%) 
+vertexes               428/65536        5136/786432   ( 0.7%) 
+nodes                  179/65536        5728/2097152  ( 0.3%) 
+texinfos                71/12288        5112/884736   ( 0.6%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  298/65536       16688/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              209/65536       11704/3670016  ( 0.3%) 
+leaves                 181/65536        5792/2097152  ( 0.3%) 
+leaffaces              387/65536         774/131072   ( 0.6%) 
+leafbrushes            226/65536         452/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2236/512000       8944/2048000  ( 0.4%) 
+edges                 1351/256000       5404/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             11/32768         110/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           147/65536         294/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       87964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2584/16777216 ( 0.0%) 
+entdata               [variable]        1165/393216   ( 0.3%) 
+LDR ambient table      181/65536         724/262144   ( 0.3%) 
+HDR ambient table      181/65536         724/262144   ( 0.3%) 
+LDR leaf ambient        86/65536        2408/1835008  ( 0.1%) 
+HDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       20583/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 766
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20023 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 12 texdatas to 11 (304 bytes to 240)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+ 106 portalclusters
+ 291 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 7 visible clusters (0.07%)
+Total clusters visible: 9707
+Average clusters visible: 91
+Building PAS...
+Average clusters audible: 106
+visdatasize:3833  compressed from 3392
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+306 faces
+298321 square feet [42958360.00 square inches]
+10 Displacements
+8437 Square Feet [1215021.63 Square Inches]
+306 patches before subdivision
+4708 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 236886, max 266
+transfer lists:   1.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             450/65536        3600/524288   ( 0.7%) 
+planes                 554/65536       11080/1310720  ( 0.8%) 
+vertexes               499/65536        5988/786432   ( 0.8%) 
+nodes                  227/65536        7264/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts             250/0            5000/0        ( 0.0%) 
+disp_tris              320/0             640/0        ( 0.0%) 
+disp_lmsamples       22540/0           22540/0        ( 0.0%) 
+faces                  306/65536       17136/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              194/65536       10864/3670016  ( 0.3%) 
+leaves                 229/65536        7328/2097152  ( 0.3%) 
+leaffaces              387/65536         774/131072   ( 0.6%) 
+leafbrushes            248/65536         496/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2205/512000       8820/2048000  ( 0.4%) 
+edges                 1368/256000       5472/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             17/32768         170/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           243/65536         486/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      197124/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3833/16777216 ( 0.0%) 
+entdata               [variable]        1167/393216   ( 0.3%) 
+LDR ambient table      229/65536         916/262144   ( 0.3%) 
+HDR ambient table      229/65536         916/262144   ( 0.3%) 
+LDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+HDR leaf ambient       229/65536        6412/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         536/0        ( 0.0%) 
+physics               [variable]       20023/4194304  ( 0.5%) 
+physics terrain       [variable]        1092/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 784
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 89 texinfos to 62
+Reduced 11 texdatas to 10 (285 bytes to 221)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+ 102 portalclusters
+ 280 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.04%)
+Total clusters visible: 9088
+Average clusters visible: 89
+Building PAS...
+Average clusters audible: 102
+visdatasize:3475  compressed from 3264
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+292 faces
+295825 square feet [42598800.00 square inches]
+10 Displacements
+8489 Square Feet [1222535.13 Square Inches]
+292 patches before subdivision
+4264 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 193813, max 259
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 51/8192          612/98304    ( 0.6%) 
+brushsides             443/65536        3544/524288   ( 0.7%) 
+planes                 546/65536       10920/1310720  ( 0.8%) 
+vertexes               469/65536        5628/786432   ( 0.7%) 
+nodes                  217/65536        6944/2097152  ( 0.3%) 
+texinfos                62/12288        4464/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts             250/0            5000/0        ( 0.0%) 
+disp_tris              320/0             640/0        ( 0.0%) 
+disp_lmsamples       22540/0           22540/0        ( 0.0%) 
+faces                  292/65536       16352/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              192/65536       10752/3670016  ( 0.3%) 
+leaves                 219/65536        7008/2097152  ( 0.3%) 
+leaffaces              355/65536         710/131072   ( 0.5%) 
+leafbrushes            237/65536         474/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2130/512000       8520/2048000  ( 0.4%) 
+edges                 1321/256000       5284/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      170936/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3475/16777216 ( 0.0%) 
+entdata               [variable]        1166/393216   ( 0.3%) 
+LDR ambient table      219/65536         876/262144   ( 0.3%) 
+HDR ambient table      219/65536         876/262144   ( 0.3%) 
+LDR leaf ambient       102/65536        2856/1835008  ( 0.2%) 
+HDR leaf ambient       219/65536        6132/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/754      ( 0.1%) 
+pakfile               [variable]         536/0        ( 0.0%) 
+physics               [variable]       19631/4194304  ( 0.5%) 
+physics terrain       [variable]        1330/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 745
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_grass_wvt_patch
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29975 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 97 texinfos to 68
+Reduced 14 texdatas to 12 (410 bytes to 310)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+ 131 portalclusters
+ 361 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 9 visible clusters (0.06%)
+Total clusters visible: 14108
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 131
+visdatasize:5517  compressed from 6288
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+432 faces
+308613 square feet [44440312.00 square inches]
+13 Displacements
+8448 Square Feet [1216560.13 Square Inches]
+432 patches before subdivision
+6322 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 296760, max 258
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 80/8192          960/98304    ( 1.0%) 
+brushsides             694/65536        5552/524288   ( 1.1%) 
+planes                 752/65536       15040/1310720  ( 1.1%) 
+vertexes               701/65536        8412/786432   ( 1.1%) 
+nodes                  280/65536        8960/2097152  ( 0.4%) 
+texinfos                68/12288        4896/884736   ( 0.6%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos               13/0            2288/0        ( 0.0%) 
+disp_verts             325/0            6500/0        ( 0.0%) 
+disp_tris              416/0             832/0        ( 0.0%) 
+disp_lmsamples       22508/0           22508/0        ( 0.0%) 
+faces                  432/65536       24192/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              296/65536       16576/3670016  ( 0.5%) 
+leaves                 282/65536        9024/2097152  ( 0.4%) 
+leaffaces              570/65536        1140/131072   ( 0.9%) 
+leafbrushes            312/65536         624/131072   ( 0.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3189/512000      12756/2048000  ( 0.6%) 
+edges                 1983/256000       7932/1024000  ( 0.8%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           372/65536         744/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      314596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        5517/16777216 ( 0.0%) 
+entdata               [variable]        1612/393216   ( 0.4%) 
+LDR ambient table      282/65536        1128/262144   ( 0.4%) 
+HDR ambient table      282/65536        1128/262144   ( 0.4%) 
+LDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+HDR leaf ambient       282/65536        7896/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/962      ( 0.1%) 
+pakfile               [variable]        1068/0        ( 0.0%) 
+physics               [variable]       29975/4194304  ( 0.7%) 
+physics terrain       [variable]        1741/1048576  ( 0.2%) 
+
+Level flags = 0
+
+Total triangle count: 1108
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_grass_wvt_patch
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-475.81 -1168.35 -192.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 10 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41241 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+.Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+10
+Compacting texture/material tables...
+Reduced 278 texinfos to 217
+Reduced 28 texdatas to 25 (786 bytes to 656)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+No vis information, direct lighting only.
+582 faces
+30955 square feet [4457537.50 square inches]
+18 Displacements
+15729 Square Feet [2264985.50 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             771/65536        6168/524288   ( 1.2%) 
+planes                 522/65536       10440/1310720  ( 0.8%) 
+vertexes              1113/65536       13356/786432   ( 1.7%) 
+nodes                  268/65536        8576/2097152  ( 0.4%) 
+texinfos               217/12288       15624/884736   ( 1.8%) 
+texdata                 25/2048          800/65536    ( 1.2%) 
+dispinfos               18/0            3168/0        ( 0.0%) 
+disp_verts             506/0           10120/0        ( 0.0%) 
+disp_tris              672/0            1344/0        ( 0.0%) 
+disp_lmsamples       40308/0           40308/0        ( 0.0%) 
+faces                  582/65536       32592/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              391/65536       21896/3670016  ( 0.6%) 
+leaves                 270/65536        8640/2097152  ( 0.4%) 
+leaffaces              777/65536        1554/131072   ( 1.2%) 
+leafbrushes            244/65536         488/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4469/512000      17876/2048000  ( 0.9%) 
+edges                 2876/256000      11504/1024000  ( 1.1%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             65/32768         650/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1071/65536        2142/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                15/512          5280/180224   ( 2.9%) 
+LDR lightdata         [variable]      477008/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        3166/393216   ( 0.8%) 
+LDR ambient table      270/65536        1080/262144   ( 0.4%) 
+HDR ambient table      270/65536        1080/262144   ( 0.4%) 
+LDR leaf ambient       281/65536        7868/1835008  ( 0.4%) 
+HDR leaf ambient       270/65536        7560/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7294     ( 0.0%) 
+pakfile               [variable]        1068/0        ( 0.0%) 
+physics               [variable]       41241/4194304  ( 1.0%) 
+physics terrain       [variable]        2286/1048576  ( 0.2%) 
+
+Level flags = 0
+
+Total triangle count: 1706
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_grass_wvt_patch
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_wvt_patch
+Patching WVT material: maps/arena_graveyard_a1/koth_viaduct_event/blendgrasstocobble_viaduct001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 10 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (56038 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+10
+Compacting texture/material tables...
+Reduced 307 texinfos to 243
+Reduced 34 texdatas to 31 (960 bytes to 830)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+ 197 portalclusters
+ 565 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 50 visible clusters (0.19%)
+Total clusters visible: 26849
+Average clusters visible: 136
+Building PAS...
+Average clusters audible: 196
+visdatasize:11540  compressed from 12608
+writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+771 faces
+327672 square feet [47184840.00 square inches]
+18 Displacements
+15729 Square Feet [2264985.50 Square Inches]
+771 patches before subdivision
+10359 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 639688, max 276
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(107, 59, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                144/8192         1728/98304    ( 1.8%) 
+brushsides            1058/65536        8464/524288   ( 1.6%) 
+planes                 846/65536       16920/1310720  ( 1.3%) 
+vertexes              1524/65536       18288/786432   ( 2.3%) 
+nodes                  438/65536       14016/2097152  ( 0.7%) 
+texinfos               243/12288       17496/884736   ( 2.0%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos               18/0            3168/0        ( 0.0%) 
+disp_verts             506/0           10120/0        ( 0.0%) 
+disp_tris              672/0            1344/0        ( 0.0%) 
+disp_lmsamples       40308/0           40308/0        ( 0.0%) 
+faces                  771/65536       43176/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                 440/65536       14080/2097152  ( 0.7%) 
+leaffaces              966/65536        1932/131072   ( 1.5%) 
+leafbrushes            500/65536        1000/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5730/512000      22920/2048000  ( 1.1%) 
+edges                 3627/256000      14508/1024000  ( 1.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             86/32768         860/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1407/65536        2814/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]      621944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       11540/16777216 ( 0.1%) 
+entdata               [variable]        3287/393216   ( 0.8%) 
+LDR ambient table      440/65536        1760/262144   ( 0.7%) 
+HDR ambient table      440/65536        1760/262144   ( 0.7%) 
+LDR leaf ambient       251/65536        7028/1835008  ( 0.4%) 
+HDR leaf ambient       440/65536       12320/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7504     ( 0.0%) 
+pakfile               [variable]        1663/0        ( 0.0%) 
+physics               [variable]       56038/4194304  ( 1.3%) 
+physics terrain       [variable]        2286/1048576  ( 0.2%) 
+
+Level flags = 0
+
+Total triangle count: 2224
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.vmf
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_grass_wvt_patch
+Patching WVT material: maps/arena_graveyard_a1/nature/blendgroundtogravel004_wvt_patch
+Patching WVT material: maps/arena_graveyard_a1/koth_viaduct_event/blendgrasstocobble_viaduct001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-475.81 -1168.35 -192.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 10 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85502 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+.Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+Material KOTH_VIADUCT_EVENT/BLENDGRASSTOCOBBLE_VIADUCT001 uses unknown detail object type tf_forest_grass!
+10
+Compacting texture/material tables...
+Reduced 406 texinfos to 302
+Reduced 34 texdatas to 31 (960 bytes to 830)
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+reading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+No vis information, direct lighting only.
+1195 faces
+528242 square feet [76066976.00 square inches]
+40 Displacements
+35666 Square Feet [5136016.50 Square Inches]
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                225/8192         2700/98304    ( 2.7%) 
+brushsides            1619/65536       12952/524288   ( 2.5%) 
+planes                1018/65536       20360/1310720  ( 1.6%) 
+vertexes              2423/65536       29076/786432   ( 3.7%) 
+nodes                  896/65536       28672/2097152  ( 1.4%) 
+texinfos               302/12288       21744/884736   ( 2.5%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos               40/0            7040/0        ( 0.0%) 
+disp_verts            1112/0           22240/0        ( 0.0%) 
+disp_tris             1472/0            2944/0        ( 0.0%) 
+disp_lmsamples       90552/0           90552/0        ( 0.0%) 
+faces                 1195/65536       66920/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              718/65536       40208/3670016  ( 1.1%) 
+leaves                 898/65536       28736/2097152  ( 1.4%) 
+leaffaces             1479/65536        2958/131072   ( 2.3%) 
+leafbrushes            628/65536        1256/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8618/512000      34472/2048000  ( 1.7%) 
+edges                 5413/256000      21652/1024000  ( 2.1%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            125/32768        1250/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2004/65536        4008/131072   ( 3.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                29/512         10208/180224   ( 5.7%) 
+LDR lightdata         [variable]     1366408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         827/393216   ( 0.2%) 
+LDR ambient table      898/65536        3592/262144   ( 1.4%) 
+HDR ambient table      898/65536        3592/262144   ( 1.4%) 
+LDR leaf ambient       501/65536       14028/1835008  ( 0.8%) 
+HDR leaf ambient       898/65536       25144/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10892    ( 0.0%) 
+pakfile               [variable]        1663/0        ( 0.0%) 
+physics               [variable]       85502/4194304  ( 2.0%) 
+physics terrain       [variable]        5090/1048576  ( 0.5%) 
+
+Level flags = 0
+
+Total triangle count: 3324
+Writing c:\program files (x86)\steam\steamapps\common\team fortress 2\sourcesdk_content\tf\mapsrc\arena_graveyard_a1.bsp
+3 seconds elapsed
